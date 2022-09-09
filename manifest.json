@@ -14,7 +14,6 @@
   "manifest_version": 2,
   "name": "Side Translate",
   "permissions": [
-    "activeTab",
     "storage",
     "menus"
   ],

@@ -1,0 +1,22 @@
+{
+  "author": "igorlogius",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "sidebar_action": {
+     "open_at_install":true,
+     "default_panel": "sidebar.html"
+  },
+  "icons": {
+  },
+  "manifest_version": 2,
+  "name": "Side Translate",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "menus"
+  ],
+  "version": "1.0.0"
+}

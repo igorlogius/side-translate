@@ -5,11 +5,15 @@
       "background.js"
     ]
   },
+  "browser_action": {
+  },
   "sidebar_action": {
+     "default_icon": "icon.svg",
      "open_at_install":true,
      "default_panel": "sidebar.html"
   },
   "icons": {
+    "128": "icon.svg"
   },
   "manifest_version": 2,
   "name": "Side Translate",
@@ -17,5 +21,5 @@
     "storage",
     "menus"
   ],
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
